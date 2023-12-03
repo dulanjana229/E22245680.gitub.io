@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #dcff41;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+.navbar {
+    display: inline;
+}
+
+.navbar a {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+.btns {
+    text-align: right;
+    list-style-type:none;
+    margin: 10px;
+    padding: 10px;
+
+}
+.active {
+    background-color: rgb(255, 106, 6);
+    
+}
+.none{
+    color: rgb(237, 255, 72);
+    text-align: center;
+    margin: 100px;
+    
+} 
+
+.navbar a:hover {
+    background-color: rgb(129, 194, 255);
+}
+
+.ingredients{
+    margin-top: 20px;
+    background-color: bisque;
+    
+} 
+.instructions {
+    margin-top: 20px;
+}
+
+/* Add additional styling as needed */
